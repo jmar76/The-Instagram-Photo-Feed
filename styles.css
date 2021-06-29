@@ -29,24 +29,26 @@ h1 {
 #hijoa {
             display: flex;   
             flex-direction: column;
-            background-color: white;
             width: 500px;
             height: 500px;
-            margin: 20px auto;                     
+            margin: auto;   
+            background-color: white;          
 }               
 #hijob {    display: flex;   
             flex-direction: column;
-            background-color: white;
             width: 500px;
             height: 500px;
-            margin: 20px auto;      
+            margin: auto;   
+            background-color: white;   
+            margin-top: 33px;    
 }
-#hijoc {    display: flex;   
+#hijoc {     display: flex;   
             flex-direction: column;
-            background-color: white;
             width: 500px;
             height: 500px;
-            margin: 20px auto;                      
+            margin: auto;   
+            background-color: white;   
+                    margin-top: 33px;                       
 }
 #hijod {    display: flex;   
             flex-direction: column;
@@ -58,36 +60,72 @@ h1 {
 #a1 {
             display: flex;   
             flex-direction: row-reverse;
-            background-color:white;
             width: 450px;
             height: 70px;
-            margin: 0 auto;                                                         
+            margin: 0 auto;   
 }
-#a2 {
-            background-color: white;
-            width: 450px;
-            height: 350px;
-            margin: 0 auto;                  
-}
-#a2 img {    
+#corregir img {    
             position: absolute;
-            right:596px;
-            bottom:165px;
+            width: 480px;
+            height: 350px; 
+            margin: auto;
+}
+#corregir2{
+            width: 480px;
+            height: 350px; 
+            margin: auto;
+            align-items: center;
+}
+#corregir2 img {    
+            position: absolute;
+            /* right:596px;
+            bottom:165px; */
+                width: 480px;
+            height: 350px; 
+            margin: auto;
+}
+
+#corregir3{
+            width: 480px;
+            height: 350px; 
+            margin: auto;
+            align-items: center;
+}
+#corregir3 img {    
+            position: absolute;
+            /* right:596px;
+            bottom:165px; */
+                width: 480px;
+            height: 350px; 
+            margin: auto;
+}
+
+#corregir4{
+     width: 480px;
+            height: 350px; 
+            margin: auto;
+            align-items: center;
+}
+#corregir4 img {    
+            position: absolute;
+            /* right:596px;
+            bottom:165px; */
+                width: 480px;
+            height: 350px; 
+            margin: auto;
 }
 #a3 {
-            background-color: white;
             width: 450px;   
-            height: 100px; 
-            margin: 0 auto;   
+            height: 60px; 
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size: 12px;
-            padding-top: 15px; 
-            text-align: left;     
+            text-align: left;   
+            margin: auto;  
 }     
 #a11 {
             background-color:white;
             width: 180px;
-            height: 70px;
+            height: 30px;
             margin-left: 100px;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size: 12px;
@@ -97,18 +135,17 @@ h1 {
 #a12 {
             background-color: white;
             width: 500px;
-            height: 70px;    
+            height: 30px;    
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size: 21px;
             padding-top: 15px; 
 }
 #b1 {
-            display: flex;   
+           display: flex;   
             flex-direction: row-reverse;
-            background-color: white;
             width: 450px;
             height: 70px;
-            margin: 0 auto;                                                         
+            margin: 0 auto;                                                       
 }
 #b2 {
             background-color: white;
@@ -116,33 +153,28 @@ h1 {
             height: 350px;
             margin: 0 auto;                   
 }
-
 #b2 img {    
             position: absolute;
             right:596px;
             top:810px;
-            
 }
-
 #b3 {
-            background-color:white;
-            width: 450px;   
-            height: 100px; 
-            margin: 0 auto;     
+           width: 450px;   
+            height: 60px; 
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size: 12px;
-            padding-top: 15px; 
-            text-align: left;      
+            text-align: left;   
+            margin: auto;     
 }     
 #b11 {
-            background-color: white;
+             background-color:white;
             width: 180px;
-            height: 70px;
+            height: 30px;
             margin-left: 100px;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size: 12px;
             padding-top: 15px; 
-            text-align: right;                                   
+            text-align: right;                                      
 }
 #b12 {
             background-color: white;
@@ -155,7 +187,6 @@ h1 {
 #c1 {
             display: flex;   
             flex-direction: row-reverse;
-            background-color: white;
             width: 450px;
             height: 70px;
             margin: 0 auto;                                                         
@@ -166,32 +197,28 @@ h1 {
             height: 350px;
             margin: 0 auto;                   
 }
-
 #c2 img{    
             position: absolute;
             right:596px;
             top:1350px;
-            
 }
 #c3 {
-            background-color: white;
-            width: 450px;   
-            height: 100px; 
-            margin: 0 auto;     
+           width: 450px;   
+            height: 60px; 
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size: 12px;
-            padding-top: 15px; 
-            text-align: left;    
+            text-align: left;   
+            margin: auto;  
 }     
 #c11 {
-            background-color: white;
+             background-color:white;
             width: 180px;
-            height: 70px;
-            margin-left: 100px;      
+            height: 30px;
+            margin-left: 100px;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size: 12px;
             padding-top: 15px; 
-            text-align: right;                              
+            text-align: right;                                  
 }
 #c12 {
             background-color: white;
@@ -205,7 +232,6 @@ h1 {
 #d1 {
             display: flex;   
             flex-direction: row-reverse;
-            background-color: white;
             width: 450px;
             height: 70px;
             margin: 0 auto;                                                         
@@ -222,14 +248,12 @@ h1 {
             top:1880px;
 }
 #d3 {
-            background-color: white;
             width: 450px;   
-            height: 100px; 
-            margin: 0 auto;  
+            height: 60px; 
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size: 12px;
-            padding-top: 15px; 
-            text-align: left;       
+            text-align: left;   
+            margin: auto;    
 }     
 #d11 {
             background-color: white;
@@ -248,4 +272,12 @@ h1 {
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size: 21px;
             padding-top: 15px;    
+}
+#corregir{
+    background-color: darkgreen;
+                width: 480px;
+            height: 350px; 
+            margin: auto;
+            align-items: center;
+
 }
